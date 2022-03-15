@@ -4,8 +4,6 @@ private:
     int point_y = 0;
 
 public:
-  point();
-  point(int x, int y);
 	int get_point_x();
 	int get_point_y();
 
@@ -14,5 +12,8 @@ public:
 
 	void translater(int tr_x, int tr_y);
 	void translater(point tr_point);
+
+  point();
+  point(int x, int y);
 	
 };
